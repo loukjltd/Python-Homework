@@ -1,9 +1,17 @@
+# Exercise 09-03
+'''
+Student Name: Sean
+ID: 201810701580042
+Class: Network 182
+'''
+
+
 class Shape:
     def __init__(self, colour):
         self.colour = colour
 
 
-class Rectangle:
+class Rectangle(Shape):
 
     def __init__(self, colour, width, height):
         Shape.__init__(self, colour)
@@ -15,7 +23,7 @@ class Rectangle:
         return self.width * self.height
 
 
-class Triangle:
+class Triangle(Shape):
 
     def __init__(self, colour, width, height):
         Shape.__init__(self, colour)
