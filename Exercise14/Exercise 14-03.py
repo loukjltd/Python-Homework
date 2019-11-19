@@ -5,6 +5,7 @@ ID: 201810701580042
 Class: Network 182
 '''
 
+
 class Pet:
 
     def __init__(self, type, name, number_of_legs):

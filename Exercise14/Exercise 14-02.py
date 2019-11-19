@@ -11,4 +11,4 @@ s = 0
 for x in f.readlines():
     s += int(x)
 
-print(s)
+print('Sum: ' + str(s))
